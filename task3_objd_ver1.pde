@@ -2,7 +2,7 @@ PImage img1, img2;
 
 void setup() {
   size(1200, 800);
-  img1 = loadImage("img-2.jpg");
+  img1 = loadImage("img-A.jpg");
   img2 = loadImage("car-registration-plate-guide-1.jpg");
   
   display(img1, img2);
@@ -13,10 +13,10 @@ void setup() {
   //display(img1, img2);
   
   object_detection(img1, img2,
-                   8, 2, 2,     // directions, gridX, gridY
-                   70, 100,     // window size
-                   3, 3,        // window step size
-                   0.95,        // threshold
+                   8, 2, 2,                     // directions, gridX, gridY
+                   img1.width, img1.height,     // window size
+                   3, 3,                        // window step size
+                   0.99,                        // threshold
                    img1.width + 10, 0);
 }
 
@@ -148,7 +148,6 @@ float cosineSimilarity(float[] a, float[] b) {
 void display(PImage img1, PImage img2) {
   int a=0 , b=0;
   image(img1, a, b);
-  
   image(img2, img1.width + 10, 0);
 }
 
