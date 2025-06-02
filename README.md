@@ -9,4 +9,7 @@
 2.1 It estimates the similarity between two input images by calculating the cosine similarity between their histograms of oriented gradients.
 
 ## Task 3 : writing a program that meets the following requirements:
-3.1 It reads an object represented in imageA and detects its occurrences in imageB, by applyling the sliding window technique. The input parameters are: two grayscale images, number of chaincode directions, grid dimension, sliding window dimension, sliding window steps along the x- and y-axis, etc.
+3.1 It reads an object represented in imageA and detects its occurrences in imageB, by applying the sliding window technique. The input parameters are: two grayscale images, number of chaincode directions, grid dimension, sliding window dimension, sliding window steps along the x- and y-axis, etc.
+
+## Task 4 : writing a program that meets the following requirements:
+4.1  A program that implements the graph-based image segmentation using the tree-based union and find algorithm.
