@@ -13,3 +13,6 @@
 
 ## Task 4 : writing a program that meets the following requirements:
 4.1  A program that implements the graph-based image segmentation using the tree-based union and find algorithm.
+
+## Task 5 : writing a program that meets the following requirements:
+5.1  A program for dynamic signature verification based on the (adapted) Levenshtein distance algorithm
